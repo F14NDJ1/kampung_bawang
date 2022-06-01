@@ -1,0 +1,38 @@
+@extends('admin.template.main')
+
+
+@section('container')
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Action</th>
+    </tr>
+    @foreach ($data as $item)
+    <tr>
+        <td>{{ $item->id }}</td>
+        <td>{{ $item->name }}</td>
+        <td>
+            <button class="btn btn-warning" onClick="show({{ $item->id }})">Edit</button>
+            <button class="btn btn-danger" onClick="destroy({{ $item->id }})">Delete</button>
+        </td>
+    </tr>
+    @endforeach
+</table>
+
+
+@endsection
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        read()
+    });
+    // Read Database
+    function read() {
+        $.get("{{ url('read') }}", {}, function(data, status) {
+            $("#read").html(data);
+        });
+    }
+</script>
