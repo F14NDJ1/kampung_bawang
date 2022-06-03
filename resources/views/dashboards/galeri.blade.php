@@ -10,9 +10,9 @@
         content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
-    <link rel="shortcut icon" href="../../../asset_dashboards/img/favicon.png">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/plugins.css">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/style.css">
+    <link rel="shortcut icon" href="{{ asset('asset_dashboards/img/favicon.png') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/plugins.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/style.css') }}">
     <style>
         .artikel {
             max-inline-size: 100%;
@@ -37,8 +37,8 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none d-xl-none">
-                            <a href="./1-home.html"><img src="../../../asset_dashboards/img/logo-light.png"
-                                    srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" /></a>
+                            <a href="./1-home.html"><img src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                                    srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" /></a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -102,10 +102,12 @@
                 <div class="grid grid-view projects-masonry">
                     <div class="row gx-md-8 gy-10 gy-md-13 isotope">
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd7.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd7@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd7-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd7.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd7@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd7-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -119,10 +121,12 @@
                         </div>
                         <!-- /.item -->
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd8.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd8@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd8-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd8.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd8@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd8-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -136,10 +140,12 @@
                         </div>
                         <!-- /.item -->
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd9.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd9@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd9-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd9.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd9@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd9-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -153,10 +159,12 @@
                         </div>
                         <!-- /.item -->
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd10.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd10@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd10-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd10.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd10@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd10-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -170,10 +178,12 @@
                         </div>
                         <!-- /.item -->
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd11.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd11@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd11-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd11.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd11@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd11-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -187,10 +197,12 @@
                         </div>
                         <!-- /.item -->
                         <div class="project item col-md-6 col-xl-4">
-                            <figure class="rounded mb-6"><img src="../../../asset_dashboards/img/photos/pd12.jpg"
-                                    srcset="../../../asset_dashboards/img/photos/pd12@2x.jpg 2x" alt="" /><a
-                                    class="item-link" href="../../../asset_dashboards/img/photos/pd12-full.jpg"
-                                    data-glightbox data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
+                            <figure class="rounded mb-6"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pd12.jpg') }}"
+                                    srcset="{{ asset('asset_dashboards/img/photos/pd12@2x.jpg 2x') }}" alt="" /><a
+                                    class="item-link"
+                                    href="{{ asset('asset_dashboards/img/photos/pd12-full.jpg') }}" data-glightbox
+                                    data-gallery="projects-group"><i class="uil uil-focus-add"></i></a>
                             </figure>
                             <div class="project-details d-flex justify-content-center flex-column">
                                 <div class="post-header">
@@ -219,8 +231,8 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-3">
                     <div class="widget">
-                        <img class="mb-4" src="../../../asset_dashboards/img/logo-light.png"
-                            srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" />
+                        <img class="mb-4" src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                            srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" />
                         <p class="mb-4">© 2022 Kampung Bawang. <br class="d-none d-lg-block" />All rights
                             reserved.</p>
                         <nav class="nav social social-white">
@@ -245,8 +257,8 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-    <script src="../../../asset_dashboards/js/plugins.js"></script>
-    <script src="../../../asset_dashboards/js/theme.js"></script>
+    <script src="{{ asset('asset_dashboards/js/plugins.js') }}"></script>
+    <script src="{{ asset('asset_dashboards/js/theme.js') }}"></script>
 </body>
 
 </html>

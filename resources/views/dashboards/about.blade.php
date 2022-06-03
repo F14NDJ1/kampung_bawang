@@ -10,9 +10,9 @@
         content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
-    <link rel="shortcut icon" href="../../../asset_dashboards/img/favicon.png">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/plugins.css">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/style.css">
+    <link rel="shortcut icon" href="{{ asset('asset_dashboards/img/favicon.png') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/plugins.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/style.css') }}">
 </head>
 
 <body>
@@ -27,8 +27,8 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none d-xl-none">
-                            <a href="./1-home.html"><img src="../../../asset_dashboards/img/logo-light.png"
-                                    srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" /></a>
+                            <a href="./1-home.html"><img src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                                    srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" /></a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -93,7 +93,7 @@
             </div>
             <!-- /.container -->
             <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img
-                    src="../../../asset_dashboards/img/photos/bg12.jpg" alt="" /></figure>
+                    src="{{ asset('asset_dashboards/img/photos/bg12.jpg') }}" alt="" /></figure>
         </section>
         <!-- /section -->
         <section class="wrapper bg-light angled upper-end lower-end">
@@ -105,19 +105,21 @@
                         <div class="overlap-grid overlap-grid-2">
                             <div class="item">
                                 <figure class="rounded shadow"><img
-                                        src="../../../asset_dashboards/img/photos/about2.jpg"
-                                        srcset="../../../asset_dashboards/img/photos/about2@2x.jpg 2x" alt=""></figure>
+                                        src="{{ asset('asset_dashboards/img/photos/about2.jpg') }}"
+                                        srcset="{{ asset('asset_dashboards/img/photos/about2@2x.jpg 2x') }}" alt="">
+                                </figure>
                             </div>
                             <div class="item">
                                 <figure class="rounded shadow"><img
-                                        src="../../../asset_dashboards/img/photos/about3.jpg"
-                                        srcset="../../../asset_dashboards/img/photos/about3@2x.jpg 2x" alt=""></figure>
+                                        src="{{ asset('asset_dashboards/img/photos/about3.jpg') }}"
+                                        srcset="{{ asset('asset_dashboards/img/photos/about3@2x.jpg 2x') }}" alt="">
+                                </figure>
                             </div>
                         </div>
                     </div>
                     <!--/column -->
                     <div class="col-lg-6">
-                        <img src="../../../asset_dashboards/img/icons/lineal/megaphone.svg"
+                        <img src="{{ asset('asset_dashboards/img/icons/lineal/megaphone.svg') }}"
                             class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
                         <h2 class="display-4 mb-3">Who Are We?</h2>
                         <p class="lead fs-lg">We are a digital and branding company that believes in the power of
@@ -165,8 +167,8 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-3">
                     <div class="widget">
-                        <img class="mb-4" src="../../../asset_dashboards/img/logo-light.png"
-                            srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" />
+                        <img class="mb-4" src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                            srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" />
                         <p class="mb-4">© 2022 Kampung Bawang. <br class="d-none d-lg-block" />All rights
                             reserved.</p>
                         <nav class="nav social social-white">
@@ -193,8 +195,8 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-    <script src="../../../asset_dashboards/js/plugins.js"></script>
-    <script src="../../../asset_dashboards/js/theme.js"></script>
+    <script src="{{ asset('asset_dashboards/js/plugins.js') }}"></script>
+    <script src="{{ asset('asset_dashboards/js/theme.js') }}"></script>
 </body>
 
 </html>

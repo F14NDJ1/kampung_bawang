@@ -10,9 +10,9 @@
         content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
-    <link rel="shortcut icon" href="../../../asset_dashboards/img/favicon.png">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/plugins.css">
-    <link rel="stylesheet" href="../../../asset_dashboards/css/style.css">
+    <link rel="shortcut icon" href="{{ asset('asset_dashboards/img/favicon.png') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/plugins.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset_dashboards/css/style.css') }}">
     <style>
         .artikel {
             max-inline-size: 100%;
@@ -37,8 +37,8 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none d-xl-none">
-                            <a href="./1-home.html"><img src="../../../asset_dashboards/img/logo-light.png"
-                                    srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" /></a>
+                            <a href="./1-home.html"><img src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                                    srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" /></a>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -90,7 +90,7 @@
         </header>
         <!-- /header -->
         <section class="wrapper image-wrapper bg-image bg-overlay text-white"
-            data-image-src="../../../assets_kampung_bawang/Foto pERTANIAN BAWANG MERAH - Galeri Desa Wisata Kampung Bawang Bima-NTB.jpg">
+            data-image-src="{{ asset('assets_kampung_bawang/Foto pERTANIAN BAWANG MERAH - Galeri Desa Wisata Kampung Bawang Bima-NTB.jpg') }}">
             <div class="container pt-19 pt-md-21 pb-18 pb-md-20 text-center">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
@@ -113,7 +113,7 @@
                             <div class="col-md-5 offset-md-1 align-self-end">
                                 <div class="card bg-pale-yellow">
                                     <div class="card-body">
-                                        <img src="../../../asset_dashboards/img/icons/lineal/telephone-3.svg"
+                                        <img src="{{ asset('asset_dashboards/img/icons/lineal/telephone-3.svg') }}"
                                             class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                         <h4>24/7 Support</h4>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id
@@ -127,7 +127,7 @@
                             <div class="col-md-6 align-self-end">
                                 <div class="card bg-pale-red">
                                     <div class="card-body">
-                                        <img src="../../../asset_dashboards/img/icons/lineal/shield.svg"
+                                        <img src="{{ asset('asset_dashboards/img/icons/lineal/shield.svg') }}"
                                             class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
                                         <h4>Secure Payments</h4>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id
@@ -141,7 +141,7 @@
                             <div class="col-md-5">
                                 <div class="card bg-pale-leaf">
                                     <div class="card-body">
-                                        <img src="../../../asset_dashboards/img/icons/lineal/cloud-computing-3.svg"
+                                        <img src="{{ asset('asset_dashboards/img/icons/lineal/cloud-computing-3.svg') }}"
                                             class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
                                         <h4>Daily Updates</h4>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra augue.</p>
@@ -154,7 +154,7 @@
                             <div class="col-md-6 align-self-start">
                                 <div class="card bg-pale-primary">
                                     <div class="card-body">
-                                        <img src="../../../asset_dashboards/img/icons/lineal/analytics.svg"
+                                        <img src="{{ asset('asset_dashboards/img/icons/lineal/analytics.svg') }}"
                                             class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                         <h4>Market Research</h4>
                                         <p class="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id
@@ -228,21 +228,21 @@
                             about creating a business process model</h3>
                         <div class="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9">
                             <div class="col-md-4"> <img
-                                    src="../../../asset_dashboards/img/icons/lineal/light-bulb.svg"
+                                    src="{{ asset('asset_dashboards/img/icons/lineal/light-bulb.svg') }}"
                                     class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="mb-1">1. Concept</h4>
                                 <p>Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
                             </div>
                             <!--/column -->
                             <div class="col-md-4"> <img
-                                    src="../../../asset_dashboards/img/icons/lineal/settings-3.svg"
+                                    src="{{ asset('asset_dashboards/img/icons/lineal/settings-3.svg') }}"
                                     class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
                                 <h4 class="mb-1">2. Prepare</h4>
                                 <p>Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
                             </div>
                             <!--/column -->
                             <div class="col-md-4"> <img
-                                    src="../../../asset_dashboards/img/icons/lineal/design.svg"
+                                    src="{{ asset('asset_dashboards/img/icons/lineal/design.svg') }}"
                                     class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
                                 <h4 class="mb-1">3. Retouch</h4>
                                 <p>Nulla vitae elit libero elit non porta gravida eget metus cras.</p>
@@ -319,30 +319,30 @@
                 <div class="row mt-5 gx-md-6 gy-6">
                     <div class="item col-md-6">
                         <figure class="hover-scale rounded cursor-dark"><a
-                                href="../../../asset_dashboards/img/photos/pp2.jpg" data-glightbox
-                                data-gallery="project-1"><img src="../../../asset_dashboards/img/photos/pp2.jpg"
-                                    alt="" /></a></figure>
+                                href="{{ asset('asset_dashboards/img/photos/pp2.jpg') }}" data-glightbox
+                                data-gallery="project-1"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pp2.jpg') }}" alt="" /></a></figure>
                     </div>
                     <!--/column -->
                     <div class="item col-md-6">
                         <figure class="hover-scale rounded cursor-dark"><a
-                                href="../../../asset_dashboards/img/photos/pp3.jpg" data-glightbox
-                                data-gallery="project-1"><img src="../../../asset_dashboards/img/photos/pp3.jpg"
-                                    alt="" /></a></figure>
+                                href="{{ asset('asset_dashboards/img/photos/pp3.jpg') }}" data-glightbox
+                                data-gallery="project-1"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pp3.jpg') }}" alt="" /></a></figure>
                     </div>
                     <!--/column -->
                     <div class="item col-md-6">
                         <figure class="hover-scale rounded cursor-dark"><a
-                                href="../../../asset_dashboards/img/photos/pp4.jpg" data-glightbox
-                                data-gallery="project-1"><img src="../../../asset_dashboards/img/photos/pp4.jpg"
-                                    alt="" /></a></figure>
+                                href="{{ asset('asset_dashboards/img/photos/pp4.jpg') }}" data-glightbox
+                                data-gallery="project-1"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pp4.jpg') }}" alt="" /></a></figure>
                     </div>
                     <!--/column -->
                     <div class="item col-md-6">
                         <figure class="hover-scale rounded cursor-dark"><a
-                                href="../../../asset_dashboards/img/photos/pp5.jpg" data-glightbox
-                                data-gallery="project-1"><img src="../../../asset_dashboards/img/photos/pp5.jpg"
-                                    alt="" /></a></figure>
+                                href="{{ asset('asset_dashboards/img/photos/pp5.jpg') }}" data-glightbox
+                                data-gallery="project-1"><img
+                                    src="{{ asset('asset_dashboards/img/photos/pp5.jpg') }}" alt="" /></a></figure>
                     </div>
                     <!--/column -->
                 </div>
@@ -356,8 +356,8 @@
             <div class="row gy-6 gy-lg-0">
                 <div class="col-md-4 col-lg-3">
                     <div class="widget">
-                        <img class="mb-4" src="../../../asset_dashboards/img/logo-light.png"
-                            srcset="../../../asset_dashboards/img/logo-light@2x.png 2x" alt="" />
+                        <img class="mb-4" src="{{ asset('asset_dashboards/img/logo-light.png') }}"
+                            srcset="{{ asset('asset_dashboards/img/logo-light@2x.png 2x') }}" alt="" />
                         <p class="mb-4">© 2022 Kampung Bawang. <br class="d-none d-lg-block" />All rights
                             reserved.</p>
                         <nav class="nav social social-white">
@@ -382,8 +382,8 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-    <script src="../../../asset_dashboards/js/plugins.js"></script>
-    <script src="../../../asset_dashboards/js/theme.js"></script>
+    <script src="{{ asset('asset_dashboards/js/plugins.js') }}"></script>
+    <script src="{{ asset('asset_dashboards/js/theme.js') }}"></script>
 </body>
 
 </html>

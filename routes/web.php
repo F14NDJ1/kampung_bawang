@@ -17,13 +17,6 @@ use App\Http\Controllers\DashboardController;
 | php artisan optimize
 */
 
-// Route::get('/', function () {
-//     return view('dashboards/index');
-// });
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
 
 require __DIR__ . '/auth.php';
 
