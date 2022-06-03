@@ -51,7 +51,7 @@
                                     <a class="nav-link" href="/artikel" data-bs-toggle="">Artikel</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./1-galeri.html" data-bs-toggle="">Galeri</a>
+                                    <a class="nav-link" href="/galeri" data-bs-toggle="">Galeri</a>
                                 </li>
 
                             </ul>
@@ -90,7 +90,7 @@
         </header>
         <!-- /header -->
         <section class="wrapper image-wrapper bg-image bg-overlay text-white"
-            data-image-src="../../../assets_kampung_bawang/1.jpg">
+            data-image-src="../../../assets_kampung_bawang/Foto pERTANIAN BAWANG MERAH - Galeri Desa Wisata Kampung Bawang Bima-NTB.jpg">
             <div class="container pt-19 pt-md-21 pb-18 pb-md-20 text-center">
                 <div class="row">
                     <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">

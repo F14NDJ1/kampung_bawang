@@ -41,7 +41,7 @@
                                     <a class="nav-link" href="/artikel" data-bs-toggle="">Artikel</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./1-galeri.html" data-bs-toggle="">Galeri</a>
+                                    <a class="nav-link" href="/galeri" data-bs-toggle="">Galeri</a>
                                 </li>
                             </ul>
                             <!-- /.navbar-nav -->

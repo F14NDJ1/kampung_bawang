@@ -39,4 +39,9 @@ class DashboardController extends Controller
             'data' => Content::latest()->get()
         ]);
     }
+
+    public function galeri()
+    {
+        return view('/dashboards/galeri');
+    }
 }

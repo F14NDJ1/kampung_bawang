@@ -70,7 +70,7 @@ Route::group(['middleware' => ['auth']], function () {
 Route::get('/', [DashboardController::class, 'index']);
 Route::get('/about', [DashboardController::class, 'about']);
 Route::get('/artikel', [DashboardController::class, 'artikel']);
-
+Route::get('/galeri', [DashboardController::class, 'galeri']);
 Route::get('/tes', function () {
     return view('editor');
 });
