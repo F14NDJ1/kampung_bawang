@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContentKindController;
 use App\Http\Controllers\ContentController;
-
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,9 +17,9 @@ use App\Http\Controllers\ContentController;
 | php artisan optimize
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('dashboards/index');
+// });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -66,6 +66,10 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/user/contentKind/update/{content_kind_id}/{id}', [ContentController::class, 'update']);
     Route::get('/user/contentKind/destroy/{content_kind_id}/{id}', [ContentController::class, 'destroy']);
 });
+
+Route::get('/', [DashboardController::class, 'index']);
+Route::get('/about', [DashboardController::class, 'about']);
+Route::get('/artikel', [DashboardController::class, 'artikel']);
 
 Route::get('/tes', function () {
     return view('editor');

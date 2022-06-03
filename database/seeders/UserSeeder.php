@@ -15,13 +15,13 @@ class UserSeeder extends Seeder
      * @return void
      */
 
-    //  Just Run One More Time
+    //  Just Run Once
     public function run()
     {
         DB::table('users')->insert([
             'name' => 'Admin',
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('00000000'),
+            'password' => Hash::make('admin'),
         ]);
 
         DB::table('role_users')->insert([
